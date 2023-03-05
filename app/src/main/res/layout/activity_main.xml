@@ -14,8 +14,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Il se calcule simplement en divisant le poids (en kg) par le carre de la taille (m). Un IMC norml se situe entre 18.5 et 25. Pour connaitre, il vous suffit de completer les champs ci-dessous:"
-        android:textSize="20dp"
+        android:text="@String/ Il se calcule simplement en divisant le poids (en kg) par le carre de la taille (m). Un IMC norml se situe entre 18.5 et 25. Pour connaitre, il vous suffit de completer les champs ci-dessous:"
+        android:textSize="20sp"
 
         tools:ignore="MissingConstraints,TextSizeCheck" />
 
@@ -25,8 +25,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorAccent"
         android:ems="10"
-        android:hint="Le poids:"
-        android:layout_width="match_parent"
+        android:hint="@string/editText1"
 
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -43,8 +42,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorAccent"
         android:ems="10"
-        android:hint="La taille:"
-        android:layout_width="match_parent"
+        android:hint="@string/editText2"
 
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/btn"
@@ -60,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:text="CALCULER"
+        android:text="@string/btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
@@ -71,9 +69,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Votre IMC"
+        android:text="@string/textView2"
         android:textColor="@color/colorAccent"
-        android:textSize="33dp"
+        android:textSize="33sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
@@ -84,9 +82,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="164dp"
-        android:text=" "
+        android:text=""
         android:textColor="@color/colorAccent"
-        android:textSize="33dp"
+        android:textSize="33sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

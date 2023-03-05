@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IMC calculator</string>
+    <string name="textView2">Votre IMC</string>
+    <string name="btn">CALCULER</string>
+    <string name="editText2">La taille:</string>
+    <string name="editText1">Le poids:</string>
 </resources>
